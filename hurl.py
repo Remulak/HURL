@@ -250,7 +250,7 @@ else:
 
 # Set the ending date for image processing
 if not args.enddate:
-    end_datetime=datetime.now()
+    end_datetime=datetime.datetime.now()
 else:
     split_date=args.enddate.split('-')
     if len(split_date) != 3:
