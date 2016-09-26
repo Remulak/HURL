@@ -5,9 +5,7 @@ https://youtu.be/5DwryR43a9Q
 
 Rod Rickenbach
 
-9/23/16
-
-HURL is used to determine whether historical snapshots of a URL exist in any internet archives (ala wayback machine).  The goal is to take a graphical snapshot of the historic URLs so that they can be examined for content offline quickly.  
+HURL is used to determine whether historical snapshots of a URL exist in any Internet archives (ala wayback machine).  The goal is to take a graphical snapshot of the historic URLs so that they can be examined for content offline quickly.  
 
 usage: hurl.py [-h] [-d DIR] [-s STARTDATE] [-e ENDDATE] [-l LOGFILE]
                [-u URLS | -i INDIVIDUAL]
