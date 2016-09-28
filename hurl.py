@@ -30,8 +30,8 @@ def get_history(source_url):
     # Normalize the url. This means strip off a leading http:// or https://
     # The strip command removes all of the listed leading characters
     
-    if source_url.startswith('http'):
-        source_url=source_url.strip('htps:/')
+    if source_url.startswith('http://') or source_url.startswith('https://'):
+        source_url=source_url.lstrip('htps:/')
 
     memento_query=MEMENTO_SERVER_URL+'/http://'+source_url
     
